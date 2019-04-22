@@ -27,7 +27,7 @@ LOGGING = {
     'formatters': {
         'request': {
             'format': '%(type)s' + '[%(asctime)s]' + ' ip:%(ip)s,' + ' url:%(path)s,' +
-                      ' method:%(method)s, ' + '%(status_code)s ' + '%(data)s '
+                      ' method:%(method)s, ' + '%(data)s '
         },
     },
     'handlers': {
